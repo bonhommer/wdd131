@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+
+header {
+    font-family: Merriweather, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0 6rem 30px 6rem;
+    border: 1px solid rgb(0,0,0,0.1);
+    background-color: rgb(4, 72, 107);
+}
+
+header h1 {
+   color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgba(0,0,0,0.1); */
+    background-color: rgb(40, 40, 42);
+    padding: 1rem;
+}
+
+nav a {
+    flex: 1 1 100%;
+    color: #fff;
+    /* font-family: Merriweather; */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:chocolate;
+    text-decoration: overline;
+}
+
+main{
+    display:grid;
+    max-width:100%;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    margin: 0 6rem auto;
+}
+
+ul{
+    display:block;
+    padding: 5rem 1.5rem;
+}
+
+li a{
+    color: blue;
+}
+
+li a:visited{
+    color:blueviolet;
+}
+
+li{
+    padding:0.5rem;
+}
+
+.bonho {
+    width: 10rem;
+    height: auto;
+    border: 1px solid rgb(40, 40, 42);
+    box-shadow: 0 0 30px;
+    float: right;
+    margin: 20px;
+}
+
+h2 {
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #fff;
+    background-color: rgb(4, 72, 107);
+    padding: 1rem;
+    margin:0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+ .card {
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 1rem; 
+ }
+.card p, ul{
+    font-family: Montserrat;
+    font-size: 17px;
+}
+
+div{
+    padding: 0 1rem;
+} 
+
+footer {
+    background-color: rgb(4, 72, 107);
+    font-size: large;
+    text-align: center;
+    margin:  1rem 6rem 30px 6rem;
+    padding: 1rem ;
+    color: #fff;
+    font-family: Merriweather;
+}
+
+div h3 {
+    font-size: larger;
+    /* text-decoration: underline; */
+    text-align: center;
+    clear:both;
+    margin: 0 auto 0 auto
+}
+
+hr { 
+    width: 350px;
+    text-align: center;
+}
+
+figure {
+    float: left;
+}
+
+.lastmodified {
+    color: yellow;
+}
+
+.yellow {
+    color: yellow;
+}
+
