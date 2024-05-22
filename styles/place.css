@@ -1,8 +1,14 @@
-body{
+*{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,footer { 
+    font-family: 'Merriweather', serif;
+}
+/* body{
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     /* max-width: 750px; */
-}
 header, main, footer {
     margin: 1rem auto;
     /* background: lightblue; */
@@ -25,6 +31,7 @@ header, main, footer {
 }
 header {
     background-color: rgb(13, 155, 0);
+    font-family: 'Merriweather';
 }
 
 h1 {
@@ -41,6 +48,7 @@ section{
 footer{
     text-align: center;
     background-color: rgb(255, 132, 0);
+    font-family: 'Merriweather';
 }
 
 strong {
@@ -77,12 +85,10 @@ footer {
     padding: 10px;
 }
 
-h1,h2,footer { 
-    font-family: 'Merriweather', serif;
-}
-body{
+
+/* body{
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 .section2 h2::after{
     content: url('images/icone.svg');
