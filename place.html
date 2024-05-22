@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place | WDD 131-Jeachristeno Bonhommer Antoine</title>
+    <meta name="description" content="This page is talking about a place, it could be a country, a city, that I already visited or that want to visit">
+    <meta name="author" content="Jeachristeno Bonhommer Antoine">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'" rel="stylesheet">
+    <link href="styles/place.css" rel="stylesheet">
+    <link href="styles/place-large.css" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Petit-Goave</h1>
+        <div>
+            <picture>
+                <source srcset="images/dous-makos-large.webp" media="min-width:1000px">
+                <source srcset="images/dous-makos-medium.webp" media="min-width:750">
+                <img class="img1" src="images/dous-makos-small.webp" alt="Dous Makos" width="500" height="250">
+            </picture>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <h2 class="data">Data</h2>
+            <p class="area">Area:</p> <p class="surface">950,000 sq Km</p>
+            <p class="population">Population:</p> <p class="people">250,000</p>
+            <p class="languages">Languages:</p> <p class="lang">French, Creole</p>
+            <p class="calling-code">Calling code:</p> <p class="number">+509</p>
+            <p class="internet-tld">Internet TLD:</p> <p class="internet">.mg</p>
+        </section>
+        <hr>
+        <section class="section2">
+            <h2 class="weather"><span class="span-weather">Weather</span></h2>
+            <!-- <img class="icon" src="images/icone.svg" alt="sunny" width="100px" height="100px"> -->
+            <div class="weather-data">
+                <p class="temperature">Temperature:</p> <p class="celcius">10 &deg;C</p>
+                <p class="conditions">Conditions:</p> <p class="sunny">Sunny</p>
+                <p class="wind">Wind:</p> <p class="wind-value">4 Km/h</p>
+                <p class="wind-chill">Wind Chill:</p> <p class="wind-chill-value"><span id="wind-chill-factor"></span> &deg;C</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> | Jeachristeno Bonhommer Antoine | Irvington</p>
+        <p>Last Modification:<span id="lastModifiedValue"></span></p>
+    </footer>
+</body>
+</html>

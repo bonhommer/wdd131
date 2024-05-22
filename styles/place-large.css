@@ -1,0 +1,59 @@
+@media screen and (min-width: 640px){
+    header, main, footer{
+        max-width: 100%;
+    }
+
+    .section1{
+        position: absolute;
+        width: auto;
+        height:auto;
+        opacity: 70%;
+        top: 20%;
+        background-color: #fff;
+        padding-right: 1.8rem;
+        margin: 1rem;
+    }
+
+    .section2{
+        position: absolute;
+        width: auto;
+        height:auto;
+        opacity: 70%;
+        top: 40%;
+        background-color: #fff;
+        padding-left: 1.8rem;
+        margin: 1rem;
+        right: 10px;
+        object-fit: cover;
+    }
+
+    hr{
+        display: none;
+    }
+    .img1{
+        position:relative;
+    }
+    .data{
+        background-color: rgb(13, 155, 0);
+        padding: 1rem;
+    }
+    .weather {
+        background-color: rgb(13, 155, 0);
+        padding-top: 1rem;
+        padding-bottom: 0;
+        /* text-align: center; */
+    }
+
+    .section2 h2{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .section2 h2::after{
+        content: url('images/icone.svg');
+        display: block;
+        width: 5px;
+        height: auto;
+        margin: 16px;
+        /* margin-top: 10px; */
+    }
+} 
