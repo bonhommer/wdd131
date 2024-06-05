@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3300 2550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.26202,0,0,1.27435,-906.637,-568.45)">
+        <rect x="1327.35" y="446.069" width="1581.5" height="1962.23" style="fill:rgb(235,235,235);stroke:black;stroke-width:2.29px;"/>
+    </g>
+    <g transform="matrix(0.750533,0,0,0.769231,409.421,16.3541)">
+        <rect x="893.958" y="882.558" width="1782.99" height="1136.7" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.82px;"/>
+    </g>
+    <g transform="matrix(0.750533,0,0,0.769231,394.402,947.303)">
+        <rect x="893.958" y="882.558" width="1782.99" height="1136.7" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.82px;"/>
+    </g>
+    <g transform="matrix(0.750533,0,0,0.769231,409.421,35.3625)">
+        <rect x="1171.48" y="1250.29" width="1187.92" height="654.919" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.82px;"/>
+    </g>
+    <g transform="matrix(0.750533,0,0,0.769231,394.402,966.311)">
+        <rect x="1171.48" y="1250.29" width="1187.92" height="654.919" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.82px;"/>
+    </g>
+    <g transform="matrix(1.63733,0,0,0.769231,-387.172,73.8375)">
+        <text x="1046.03px" y="1057.43px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:95.132px;fill:rgb(9,0,0);">Infor<tspan x="1247.25px 1330.96px " y="1057.43px 1057.43px ">ma</tspan>tion</text>
+        <g transform="matrix(95.1322,0,0,95.1322,1475,1152.57)">
+        </g>
+        <text x="1046.03px" y="1152.57px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:95.132px;fill:rgb(9,0,0);">goes her<tspan x="1424.09px " y="1152.57px ">e</tspan></text>
+    </g>
+    <g transform="matrix(1.63733,0,0,0.769231,-402.19,1004.79)">
+        <text x="1046.03px" y="1057.43px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:95.132px;fill:rgb(9,0,0);">Infor<tspan x="1247.25px 1330.96px " y="1057.43px 1057.43px ">ma</tspan>tion</text>
+        <g transform="matrix(95.1322,0,0,95.1322,1475,1152.57)">
+        </g>
+        <text x="1046.03px" y="1152.57px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:95.132px;fill:rgb(9,0,0);">goes her<tspan x="1424.09px " y="1152.57px ">e</tspan></text>
+    </g>
+    <g transform="matrix(0.888322,0,0,0.970588,204.703,14.9998)">
+        <rect x="1547.85" y="380.737" width="570.251" height="258.514" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.12px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-54.6788,-69.1171)">
+        <g transform="matrix(170.237,0,0,170.237,2116.24,639.251)">
+        </g>
+        <text x="1650px" y="639.251px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:170.237px;fill:rgb(9,0,0);">Home</text>
+    </g>
+    <g transform="matrix(1.07612,0,0,1,-144.407,-38.0167)">
+        <rect x="848.338" y="99.413" width="1448.44" height="258.514" style="fill:rgb(235,235,235);stroke:black;stroke-width:2.79px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,201.489,-65.6675)">
+        <g transform="matrix(170.237,0,0,170.237,1654.59,319.91)">
+        </g>
+        <text x="871.148px" y="319.91px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:170.237px;fill:rgb(9,0,0);">Place Title</text>
+    </g>
+    <rect x="2327.19" y="61.397" width="437.192" height="258.514" style="fill:rgb(235,235,235);stroke:black;stroke-width:2.9px;"/>
+    <g transform="matrix(0.480867,0,0,0.732231,1188.66,48.5253)">
+        <g transform="matrix(170.237,0,0,170.237,3224.06,254.243)">
+        </g>
+        <text x="2418.43px" y="254.243px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:170.237px;fill:rgb(9,0,0);">Nav Menu</text>
+    </g>
+</svg>
