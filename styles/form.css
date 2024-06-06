@@ -1,0 +1,10 @@
+body{
+    max-width: 740px;
+    margin: 1rem auto;
+}
+
+header{
+    background-color: rgb(64, 5, 98) ;
+    color: #fff;
+    padding: 1rem;
+}
