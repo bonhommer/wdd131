@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <label for="product-name">Product Name</label>
+            <select id="product-name" name="product-name" required>
+                <option value="" disabled selected>Select a Product ...</option>
+            </select>
+
+            <label for="rating">Overall Rating</label>
+            <div id="rating">
+                <input type="radio" id="star5" name="rating" value="5" required><label for="star5">★</label>
+                <input type="radio" id="star4" name="rating" value="4" required><label for="star4">★</label>
+                <input type="radio" id="star3" name="rating" value="3" required><label for="star3">★</label>
+                <input type="radio" id="star2" name="rating" value="2" required><label for="star2">★</label>
+                <input type="radio" id="star1" name="rating" value="1" required><label for="star1">★</label>
+            </div>
+
+            <label for="installation-date">Date of Installation</label>
+            <input type="date" id="installation-date" name="installation-date" required>
+
+            <label>Useful Features</label>
+            <div>
+                <input type="checkbox" id="feature1" name="features" value="feature1">
+                <label for="feature1">Feature 1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="feature2" name="features" value="feature2">
+                <label for="feature2">Feature 2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="feature3" name="features" value="feature3">
+                <label for="feature3">Feature 3</label>
+            </div>
+
+            <label for="review">Written Review</label>
+            <textarea id="review" name="review"></textarea>
+
+            <label for="user-name">User Name</label>
+            <input type="text" id="user-name" name="user-name">
+
+            <input type="submit" value="Submit Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Product Review. All rights reserved.</p>
+    </footer>
+    <script src="example.js"></script>
+</body>
+</html>

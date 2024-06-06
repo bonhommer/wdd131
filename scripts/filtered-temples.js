@@ -218,4 +218,10 @@ function createTempleCard(filteredTemples){
   })
 }
 
+if (window.location.pathname.endsWith('review.html')) {
+  let reviewCount = parseInt(localStorage.getItem('reviewCount'), 10) || 0;
+  reviewCount++;
+  localStorage.setItem('reviewCount', reviewCount);
+  document.getElementById('review-count').textContent = reviewCount;
+}
 

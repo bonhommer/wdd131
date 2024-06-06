@@ -125,6 +125,131 @@ section{
     padding: 1rem;
     background-color: rgb(211,211,211);
 }
-main{
+/* main{
     font-family: 'Montserrat';
+} */
+
+.italic{
+    font-style: italic;
+    font-size: smaller;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(136, 202, 213);
+    max-width: 80%;
+    margin: 1rem auto;
+}
+.container{
+   grid-gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  div h4{
+      grid-column: 1/6;
+      grid-row: 1/2;
+  }
+  
+  .rating1{
+      grid-column: 1/2;
+      grid-row: 2/3;
+      text-align: center;
+  }
+  .input1{
+      grid-row:3/4;
+      grid-column:1/2;
+      width: 1rem;
+      margin: 1rem auto;
+      margin-top:0;
+  }
+  
+  .rating2{
+      grid-column: 2/3;
+      grid-row: 2/3;
+      text-align: center;
+  }
+  .input2{
+      grid-row:3/4;
+      grid-column:2/3;
+      width: 1rem;
+      margin: 1rem auto;
+      margin-top:0;
+  }
+  
+  .rating3{
+      grid-column: 3/4;
+      grid-row: 2/3;
+      text-align: center;
+  }
+  .input3{
+      grid-row:3/4;
+      grid-column:3/4;
+      width: 1rem;
+      margin: 1rem auto;
+      margin-top:0;
+  }
+  
+  .rating4{
+      grid-column: 4/5;
+      grid-row: 2/3;
+      text-align: center;
+  }
+  .input4{
+      grid-row:3/4;
+      grid-column:4/5;
+      width: 1rem;
+      margin: 1rem auto;
+      margin-top:0;
+  }
+  
+  .rating5{
+      grid-column: 5/6;
+      grid-row: 2/3;
+      text-align: center;
+  }
+  .input5{
+      grid-row:3/4;
+      grid-column:5/6;
+      width: 1rem;
+      margin: 1rem auto;
+      margin-top:0;
+  }
+  .date{
+      padding: 7px;
+      width:96%;
+  }
+  
+  input{
+      border: none;
+  }
+  
+  select{
+      margin-top: 10px;
+      padding: 10px;
+      width: 100%;
+      border: none;
+  }
+  
+  label[for="productName"]:after, div h4:after, label[for="installationDate"]:after{
+      content: " *";
+      color: rgb(64, 5, 98);
+  }
+
+  textarea{
+    width:98%;
+}
+
+.name{
+    width:94%;
+    padding: 10px;
 }
