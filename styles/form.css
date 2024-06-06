@@ -1,10 +1,137 @@
 body{
-    max-width: 740px;
+    max-width: 410px;
     margin: 1rem auto;
 }
 
-header{
+header,footer{
     background-color: rgb(64, 5, 98) ;
     color: #fff;
     padding: 1rem;
+    text-align: center;
+}
+
+main{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(136, 202, 213);
+}
+
+span{
+    font-style: italic;
+    font-size: smaller;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+label{
+    font-weight:bold ;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.rating{
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.rating1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+.input1{
+    grid-row:3/4;
+    grid-column:1/2;
+    width: 1rem;
+    margin: 1rem auto;
+    margin-top:0;
+}
+
+.rating2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+.input2{
+    grid-row:3/4;
+    grid-column:2/3;
+    width: 1rem;
+    margin: 1rem auto;
+    margin-top:0;
+}
+
+.rating3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+.input3{
+    grid-row:3/4;
+    grid-column:3/4;
+    width: 1rem;
+    margin: 1rem auto;
+    margin-top:0;
+}
+
+.rating4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    text-align: center;
+}
+.input4{
+    grid-row:3/4;
+    grid-column:4/5;
+    width: 1rem;
+    margin: 1rem auto;
+    margin-top:0;
+}
+
+.rating5{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    text-align: center;
+}
+.input5{
+    grid-row:3/4;
+    grid-column:5/6;
+    width: 1rem;
+    margin: 1rem auto;
+    margin-top:0;
+}
+.date{
+    padding: 7px;
+    width:96.5%;
+}
+
+input{
+    border: none;
+}
+
+select{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+textarea{
+    width:98%;
+}
+
+.name{
+    width:94%;
+    padding: 10px;
+}
+
+.yellow{
+    color: yellow;
 }
