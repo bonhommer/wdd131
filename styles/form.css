@@ -123,6 +123,11 @@ select{
     border: none;
 }
 
+label[for="productName"]:after, div h4:after, label[for="installationDate"]:after{
+    content: " *";
+    color: rgb(64, 5, 98);
+}
+
 textarea{
     width:98%;
 }
