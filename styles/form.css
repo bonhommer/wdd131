@@ -38,7 +38,7 @@ label{
   display: grid;
   grid-template-columns: auto auto auto auto auto;
 }
-.rating{
+div h4{
     grid-column: 1/6;
     grid-row: 1/2;
 }
@@ -134,4 +134,8 @@ textarea{
 
 .yellow{
     color: yellow;
+}
+
+h4{
+    margin-bottom: 0;
 }
